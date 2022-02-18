@@ -1,0 +1,207 @@
+/* &display=swap */
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic:regular,700,800&display=swap);
+
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  margin: 0 auto;
+}
+body{
+	font-family:"Oswald";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	background:url("../image/2c8ddf4aea41bce884340efc73e2d8fe_ce_2369x1578x0x0_cropped_666x444.jpg") fixed;
+}
+.header{
+	background: url("../image/kofe-1.jpg") 0 0/cover no-repeat;
+	color: black;
+	text-align: center;
+	min-height: 200px;
+	margin: 0 0 24px 0;
+}
+.header::after{
+	content: "";
+	display: inline-block;
+	width: 1300px;
+	height: 5px;
+	background-color: #fff;
+}
+.navi{
+	color: darkorange;
+	font-size:35px ;
+}
+
+.list-item{
+	display: inline-block;
+	margin: 50px 90px 24px;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 30px;
+	background: darkslategrey;
+}
+.list-item:hover{
+	outline: dotted #fff;
+	background-color: firebrick;
+	box-shadow: 0 0 10px 4px yellow;
+}
+.list-item:active{
+	background: rgb(5, 136, 27);
+	box-shadow: inset 0 0 8px 4px ;
+}
+.block-text{
+	background: slategrey;
+	max-width: 650px;
+	text-decoration: underline;
+	line-height: 1.6;
+	font-weight:600;
+	box-shadow: inset 0 0 9px 4px rgb(164, 207, 231);
+	border-radius: 15px;
+	margin: 0 30px 24px auto;
+	padding: 9px 15px;
+}
+.block-text::before{
+content: "1).";
+display: inline-block;
+color: red;
+font-size: 25px;
+}
+.block-text:hover{
+	background: linear-gradient(153deg, rgba(187,164,57,0.7147233893557423) 0%, rgba(114,240,0,0.5186449579831933) 61%, rgba(231,148,79,0.5578606442577031) 100%);
+	box-shadow: 12px 12px 15px #000000;
+}
+.block-text-2{
+	font-family: "Nanum+Gothic";
+	line-height: 1.1;
+	font-size: 19px;
+	font-weight: 800;
+	padding: 10px 10px 0 10px;
+	background-color: rgba(145, 241, 237, 0.9);
+	border-radius: 20px;
+	max-width: 700px;
+	margin: 0 0 24px 35px;
+}
+.block-text-2::before{
+	content: "2).";
+	display: inline-block;
+	color: red;
+	font-size: 25px;
+
+}
+.block-text-2:hover{
+	background: linear-gradient(270deg, #3F8D45 23.62%, rgba(255, 255, 255, 0.28) 53.23%);
+	box-shadow: 12px 12px 15px #000000;
+}
+.block-text-3{
+	font-weight: 800;
+	font-size: 22px;
+	font-style: italic;
+	max-width: 800px;
+	margin: 0 20px 24px auto;
+	background: linear-gradient(153deg, rgba(187,164,57,1) 0%, rgba(126,140,242,1) 18%, rgba(226,203,82,1) 58%, rgba(231,148,79,1) 86%);
+	border-radius: 15px;
+	box-shadow: 0 0 8px 3px #000000;
+	padding: 10px;
+}
+.block p:first-of-type{
+	box-shadow:inset 0 0 6px 4px red;
+}
+.block p:nth-child(3){
+	box-shadow:inset 0 0 6px 4px rgb(255, 0, 157);
+}
+.block-2{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.list-2{
+	font-family: "Nanum+Gothic";
+	font-weight: 900;
+	line-height: 1.2;
+}
+.list-item-2{
+	display: block;
+}
+.list-2>li:nth-of-type(odd){
+	max-width: 900px;
+	margin: 0 0 20px auto;
+	border: 2px solid rgba(18, 194, 106, 0.829);
+   box-shadow: 0 0 10px 5px rgb(37, 107, 5);
+	background-color: rgb(114, 14, 207);
+	color: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+.list-item-2::before{
+	content: "";
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	background: url("../image/braces.png") right bottom no-repeat;
+	margin: 5px 10px 0 0px;
+}
+
+.list-item-2:not(:nth-child(6))::after{
+	content: "";
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	background: url("../image/braces.png");
+	margin: 5px 0 0 10px;
+}
+.list-2>li:nth-of-type(even){
+	max-width: 500px;
+	margin:0 0 20px 0;
+	box-shadow:  3px 0 4px 4px rgb(14, 13, 13);
+	border-radius: 30px;
+	padding: 15px;
+	background-color: coral;
+}
+.list-2>li:last-of-type{
+	background-color: darkgreen;
+
+}
+/* ============================== */
+.block-2 li :last-child{
+	margin-bottom: 0;
+}
+/* =======Почему не работает?==== */
+.footer{
+	background: rgb(77, 101, 133);
+	min-height: 200px;
+	padding: 30px 0;
+}
+.block-footer{
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 160%;
+	max-width: 150px;
+	min-height: 130px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	background: linear-gradient(132deg, rgba(57,151,187,1) 0%, rgba(132,235,146,1) 0%, rgba(149,153,170,1) 4%, rgba(82,226,166,1) 37%, rgba(79,159,231,1) 86%);
+	box-shadow: 0 7px 0 0 #000;
+}
+.block-footer:hover{
+	/* margin: 2px 0 0 0; */
+	box-shadow: 0 4px 0 0 #000;
+	background: rgb(178, 79, 224);
+}
+.block-footer:active{
+	background: red;
+}
+.image{
+	display: inline-block;
+	max-width: 300px;
+	min-height: 280px;
+	margin: 0 0 24px 90px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px 7px rgba(10, 8, 26, 0.519);
+}
+.image:hover{
+	box-shadow: 0 0 5px 4px rgba(64, 213, 233, 0.911);
+}

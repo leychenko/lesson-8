@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Taviraj:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap);
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+body {
+  max-width: 810px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 160%;
+  color: #424551;
+  margin: 20px auto;
+}
+.container{
+  max-width: 390px;
+  margin: 50px 0 0 0;
+}
+.header {
+  display: block;
+  margin: 0 0 40px 0;
+}
+.subtitle-text{
+  font-weight: 700;
+  color: #1e212c;
+  margin: 0 0 8px 0;
+}
+.header-title{
+  font-weight: 900;
+  font-size: 46px;
+  color: #1e212c;
+  line-height: 130%;
+}
+/* ========================MAIN==================== */
+.list-main {
+  max-width: 390px;
+  margin: 0 0 48px 0px;
+}
+.list-item-main{
+  line-height: 1.6;
+  color: #424551;
+  padding: 0 0 0 32px;
+  min-height: 16px;
+  margin: 0 0 12px 0;
+}
+.list-item-main::before{
+	content:"";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../image/check.png") center no-repeat;
+	margin: 0 16px 0 -32px;
+}
+.buttom {
+  display: inline-block;
+  text-align: center;
+  max-width: 161px;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  margin: 0 0 30px 0;
+  border-radius: 4px;
+}
+.buttom-text {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 44px;
+  padding: 0 32px;
+}
+/* =========================Footer===================== */
+.footer{
+	font-family: "Taviraj";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	color: #333333;
+	margin: 0 0 50px 0;
+}
+.footer-title::after{
+	content: "";
+	display: block;
+	background: #000;
+	width: 65px;
+	height: 1px;
+	margin: 8px 0 0 0;
+	
+}
